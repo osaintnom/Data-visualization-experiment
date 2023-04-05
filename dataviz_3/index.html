@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Chart genero</title>
+    <a href="../index.html" class="back-button"> Volver</a>
+    <style>
+      .back-button {
+        display: inline-block;
+        padding: 10px;
+        border: 2px solid rgba(255, 255, 255, 0.74);
+        border-radius: 10px;
+        color: #fff;
+        text-align: center;
+        text-decoration: none;
+        transition: all 0.3s ease;
+        text-decoration: none;
+      }
+      .back-button:hover {
+        background-color: #444;
+      }
+      #chart{
+      overflow-y:auto;
+      }
+      #chart svg{
+        max-width: initial;
+        margin: auto;
+        background-color: black;
+        color: white;
+        font-family: Geneva, Arial, Helvetica, sans-serif;
+        color: #fff;
+      }
+      #chart2{
+      overflow-y:auto;
+      }
+      #chart2 svg{
+        max-width: initial;
+        margin: auto;
+        background-color: black;
+        color: white;
+        font-family: Geneva, Arial, Helvetica, sans-serif;
+        color: #fff;
+      }
+      body {
+              background-color: #000;
+              color: #fff;
+              font-family: Geneva, Arial, Helvetica, sans-serif;
+              color: #fff;
+            }
+      h2 {
+        font-family: Geneva, Arial, Helvetica, sans-serif;
+        margin-top: 30px; 
+        text-align: center;
+      }  
+      h1 { font-family: Geneva, Arial, Helvetica, sans-serif;
+        margin-top: 30px; 
+        text-align: center;
+      }
+      a{
+        color: #6666FF;
+        padding: 5px;
+        text-decoration: none;
+      }
+      c{
+        color: #ED2939;
+        padding: 5px;
+        text-decoration: none;
+      }
+
+      p {
+        font-family: Geneva, Arial, Helvetica, sans-serif;
+        margin-top: 30px; 
+        text-align: center;
+        font-size: medium;
+        margin-left: 10%;
+        margin-right: 10%;
+      }
+
+      p.fuente{
+        font-family: Geneva, Arial, Helvetica, sans-serif;
+        font-size: medium;;
+        color: #eeeeeeec;
+        margin-top: 20px;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>¿Qué estudian los Astronautas?</h1>
+    <p>Las profesiones y ocupaciones de los astronautas de los <b>últimos 10 años.</b></p>
+    
+    <div id="chart"></div>
+    <div id="chart2"></div>
+    <p class="fuente">Datos extraídos de la NASA</p>
+    <p class="fuente">Autores: Olivier Saint-Nom y Gerardo Del Toro</p>
+
+    
+
+    <script src="https://cdn.jsdelivr.net/npm/d3@7"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@observablehq/plot@0.6"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/iframe-resizer/4.3.2/iframeResizer.contentWindow.js"></script>
+    <script src="script.js"></script>
+  </body>
+</html>

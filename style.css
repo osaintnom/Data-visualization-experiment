@@ -1,0 +1,107 @@
+body {
+  background-image: url(img/tumblr_mndj4r5C3u1qbpwkro1_r1_500.webp);
+  background-position: left;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-color: black;
+  font-family: Geneva, Arial, Helvetica, sans-serif;
+  color: #fff;
+}
+
+/* Estilos para el encabezado */
+header {
+  padding: 2%;
+  /* background: rgba(83, 83, 83, 0.055); */
+  background-size: cover;
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+  margin-top: 5%;
+}
+h1 {
+  font-size: 3rem;
+  margin-bottom: 30px;
+  color: #ffffff;
+}
+
+/* Estilos para el menú de navegación */
+nav {
+  display: flex;
+  justify-content: center;
+}
+
+nav ul {
+  display: flex;
+  list-style: none;
+  padding: 0;
+  margin-top: 4%;
+}
+
+nav li {
+  margin: 0 20px;
+}
+
+nav a {
+  display: inline-block;
+  padding: 10px;
+  border: 2px solid rgba(255, 255, 255, 0.74);
+  border-radius: 10px;
+  color: #fff;
+  text-align: center;
+  text-decoration: none;
+  transition: all 0.3s ease;
+}
+
+nav a:hover {
+  background-color: rgba(255, 255, 255, 0.61);
+  color: #282727;
+}
+
+/* Estilos para el contenido */
+body {
+  margin-left: 20%;
+  margin-right: 20%;
+  display: flex;
+  flex-wrap: wrap;
+  /* background: rgba(0, 0, 0, 0.435) */
+  /* justify-content: center; */
+  flex-direction: column;
+  align-items: center;
+}
+main {
+  padding: 2%;
+  /* background: rgba(83, 83, 83, 0.055); */
+}
+
+/* Estilos para cada tarjeta */
+.card {
+  background-color: #f2f2f2;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  max-width: 200px;
+  margin: 10px;
+  text-align: center;
+}
+
+.card img {
+  max-width: 100%;
+}
+
+.card h2 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.card p {
+  font-size: 18px;
+  line-height: 1.5;
+  margin-bottom: 20px;
+}
+
+footer{
+  /* padding: %; */
+  /* background: rgba(83, 83, 83, 0.055); */
+  text-align: center;
+  color: #ffffffb7;
+  margin: 10%;
+}
+
