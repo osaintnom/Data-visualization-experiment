@@ -18,6 +18,7 @@ We present this in the 4 graphs found in the index. Below, we will explain what 
 
 ------------------------------------------------------------
 
+# Objetivos de este trabajo
 Este trabajo consiste en analizar la base de datos de la NASA sobre los astronautas que viajaron en los últimos 10 años.
 
 En esta base de datos se puede distinguir diferentes campos que distinguen al astronauta: nombre, edad, nacionalidad, genero, horas de vuelo y año de expedición. Reacomodando estos datos llegamos a distinguir ciertos aspectos interesantes sobre estos individuos y los datos a nivel general, especialmente en tres grandes temáticas. La primera es la del género, la segunda de la profesión; y la tercera acerca de las dos más grandes naciones que participaron en estas expediciones , USA y USSR/Rusia, que siguen en una lucha constante a pesar de estar en una tendencia bajista o más fría.
